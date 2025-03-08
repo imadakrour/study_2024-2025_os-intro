@@ -2,7 +2,7 @@
 ## Front matter
 lang: ru-RU
 title: Операционные системы
-subtitle: Первоначальна настройка git
+subtitle: Markdown
 author:
   - Имад Акрур
 institute:
