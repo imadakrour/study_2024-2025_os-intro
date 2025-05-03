@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Define the alphabet
+alphabet="abcdefghijklmnopqrstuvwxyz"
+
+# Generate a random number between 1 and 26 (the number of letters in the alphabet)
+num=$(((RANDOM % 26) + 1))
+
+# Extract the letter at the random position from the alphabet
+letter=${alphabet:num-1:1}
+
+echo "Random letter: $letter"
